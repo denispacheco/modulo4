@@ -146,7 +146,7 @@ console.log(arregloA);*/
 /*arregloB.map(e=>arregloA.push(e));
 console.log(arregloA);
 */
-//solucion profesional
+//solucion profesional 
 arregloA.push(...arregloB); //equivalente a arregloA.push(arregloB[0],arregloB[1],arregloB[2]);
 console.log(arregloA);
 
