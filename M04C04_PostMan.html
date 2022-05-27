@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- seleccion para el verbo
+    imput para la url
+    un boton para el send (ejecutar)
+    posible estilo: https://getbootstrap.com/docs/5.2/forms/input-group/#custom-select
+
+    text area para ingresar el json del body
+    estilo posible: https://getbootstrap.com/docs/5.2/forms/floating-labels/#textareas
+    ----------------------------------------
+    un div para la respuesta, que tenga: un h4 para el status y
+     un p para el json (o puede ser un text area en modo readonly) -->
+
+     <!-- seleccion del verbo -->
+    <select name="" id="verbo">
+        <option value="GET">GET</option>
+        <option value="POST">POST</option>
+        <option value="PUT">PUT</option>
+        <option value="PATCH">PATCH</option>
+        <option value="DELETE">DELETE</option>
+    </select>
+    <!-- texto paral a url -->
+    <input type="text" name="" id="url">
+    <!-- boton enviar -->
+    <button id="enviar">Enviar</button>
+    <br><br>
+    <!-- texto para ingresar el json -->
+    <textarea name="" id="textoJson" cols="30" rows="10"></textarea>
+    <!-- respuesta--------------------------------------------------------------------------------->
+    <h3>codigo y el status</h3>
+    <p>json de la respuesa (datos)</p>
+
+
+
+
+
+<script src="js/M04C04_PostMan.js"></script>
+</body>
+</html>
