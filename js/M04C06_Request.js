@@ -60,7 +60,8 @@ request.onreadystatechange=function(){
 request.open("GET","https://dog.ceo/api/breeds/image/random",true);
 
 //ejecutar (descomentar para ejecutar ejercicio)
-//request.send();
+//**************************************** */
+//request.send();//******descomentar para ver ejecucion
 
 //-------------------------------------------------------------------------------------------
 
